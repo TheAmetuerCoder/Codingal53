@@ -1,0 +1,16 @@
+<DOCTYPE html>
+<html>
+    <body>
+        <h1> Random JavaScript Error Messages </h1>
+        <p> This example demonstates how to use <b><i> catch </i></b> to display an error. </p>
+        <p id="error_message"></p>
+        <script>
+            try {
+                addalert ("Books are awesone, and if you disagree, beware of Tisha!")
+            }
+            catch(err) {
+                document.getElementById("error_message").innerHTML = err.message;
+            }
+        </script>
+    </body>
+</html>
